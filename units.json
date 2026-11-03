@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "updatedOn": "2026-11-03",
+  "workspaceUrl": "https://github.com/ArindamChatterjee007/business-office",
+  "units": [
+    {
+      "id": "astrology",
+      "code": "BU01",
+      "name": "Astrology companion",
+      "purpose": "Astrology service and reviewed customer fulfilment.",
+      "stage": "Public service",
+      "tone": "teal",
+      "recordsLabel": "Work queue",
+      "reportsLabel": "Reports & evidence",
+      "recordsUrl": "https://github.com/users/ArindamChatterjee007/projects/1",
+      "reportsUrl": "https://github.com/ArindamChatterjee007/business-01-astrology",
+      "projects": [
+        {
+          "name": "Astrology service",
+          "kind": "Web service",
+          "url": "https://astrology-lab-readings.pages.dev/"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "code": "BU02",
+      "name": "Client services",
+      "purpose": "Direct-client opportunities, proposals and engineering services.",
+      "stage": "Client qualification",
+      "tone": "blue",
+      "recordsLabel": "Clients & work queue",
+      "reportsLabel": "Client reports",
+      "recordsUrl": "https://github.com/users/ArindamChatterjee007/projects/2",
+      "reportsUrl": "https://github.com/ArindamChatterjee007/business-02-client-office",
+      "projects": [
+        {
+          "name": "Engineering demonstrations",
+          "kind": "Personal and synthetic examples",
+          "url": "https://arindamchatterjee007.github.io/business-02-demos/"
+        }
+      ]
+    },
+    {
+      "id": "mobile-ai",
+      "code": "BU03",
+      "name": "Mobile AI R&D",
+      "purpose": "PocketRoute research, offline tooling and experimental device integration.",
+      "stage": "Experimental",
+      "tone": "coral",
+      "recordsLabel": "Business records",
+      "reportsLabel": "Technical reports",
+      "recordsUrl": "https://github.com/ArindamChatterjee007/business-office",
+      "reportsUrl": "https://github.com/ArindamChatterjee0007/pocketroute-lab",
+      "projects": [
+        {
+          "name": "PocketRoute research",
+          "kind": "Technical dashboard and evidence",
+          "url": "https://arindamchatterjee0007.github.io/pocketroute-lab/"
+        },
+        {
+          "name": "PocketRoute Notes",
+          "kind": "Rule-based product alpha",
+          "url": "https://arindamchatterjee0007.github.io/pocketroute-lab/notes/"
+        }
+      ]
+    }
+  ]
+}

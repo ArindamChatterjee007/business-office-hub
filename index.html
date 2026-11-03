@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="Business Office: a shared portfolio and business-unit directory.">
+  <title>Business Office</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./assets/hub.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to content</a>
+  <aside id="sidebar">
+    <a class="brand" href="#overview"><i data-lucide="panels-top-left"></i><span>Business Office<small>PORTFOLIO</small></span></a>
+    <button id="close-menu" class="icon-button" type="button" aria-label="Close navigation" title="Close navigation"><i data-lucide="x"></i></button>
+    <p class="nav-label">WORKSPACE</p>
+    <nav id="navigation" aria-label="Main navigation"></nav>
+    <p class="nav-label units-label">BUSINESS UNITS</p>
+    <nav id="unit-navigation" aria-label="Business units"></nav>
+    <a id="private-link" class="private-link" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" hidden><i data-lucide="lock-keyhole"></i><span>GitHub workspace</span><i data-lucide="arrow-up-right"></i></a>
+  </aside>
+  <button id="backdrop" type="button" aria-label="Close navigation" hidden></button>
+  <div id="shell">
+    <header class="topbar">
+      <button id="open-menu" class="icon-button" type="button" aria-label="Open navigation" aria-expanded="false" title="Open navigation"><i data-lucide="menu"></i></button>
+      <label class="search"><i data-lucide="search"></i><input id="search" type="search" aria-label="Search units and projects" placeholder="Search units and projects" autocomplete="off"></label>
+      <span class="public-label">Public portfolio</span>
+    </header>
+    <p id="results-status" class="visually-hidden" role="status" aria-live="polite"></p>
+    <main id="workspace" tabindex="-1"><p class="loading">Loading business units</p></main>
+    <footer><span>Business Office</span><span id="updated"></span></footer>
+  </div>
+</body>
+</html>
